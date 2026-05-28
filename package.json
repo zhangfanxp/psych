@@ -1,0 +1,27 @@
+{
+  "name": "student-psych-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "db:init": "node scripts/init-db.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "lucide-react": "latest",
+    "mysql2": "latest",
+    "next": "15",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
